@@ -16,7 +16,7 @@ public class flipRight : MonoBehaviour
     void Update () {
 
         // Move the Character:
-        transform.Translate(Input.GetAxis("Horizontal") * 15f * Time.deltaTime, 0f, 0f);
+        //transform.Translate(Input.GetAxis("Horizontal") * 15f * Time.deltaTime, 0f, 0f);
 
         // Flip the Character:
         if (Input.GetAxis("Horizontal") < 0) {
